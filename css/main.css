@@ -41,6 +41,7 @@ nav ul {
   margin: 0;
   padding: 0;
   font-size: 1.125rem;
+  overflow: hidden;
 }
 
 li {
@@ -88,9 +89,6 @@ nav a:hover {
     line-height: 1.4;
   }
 
-  li {
-    background-color: #18294f;
-  }
   li:first-child {
     float: left;
     width: 25%;
@@ -118,6 +116,18 @@ nav a:hover {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  h1 {
+    float: left;
+    width: 33.3333%;
+  }
+
+  nav {
+    float: right;
+    width: 66.6666%;
+  }
+
+
 }
 
 @media only screen and (min-width: 90em) {
